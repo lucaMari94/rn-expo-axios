@@ -34,7 +34,7 @@ function ExpensesOverview() {
         ),
       })}
     >
-      <BottomTabs.Screen
+      {/* <BottomTabs.Screen
         name="RecentExpenses"
         component={RecentExpenses}
         options={{
@@ -44,7 +44,7 @@ function ExpensesOverview() {
             <Ionicons name="hourglass" size={size} color={color} />
           ),
         }}
-      />
+      /> */}
       <BottomTabs.Screen
         name="AllExpenses"
         component={AllExpenses}
